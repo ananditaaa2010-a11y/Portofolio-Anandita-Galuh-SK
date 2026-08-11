@@ -14,21 +14,21 @@
 const CONFIG_PROFILE = {
   name:       "Anandita Galuh Sekar Kinanti",   // Nama lengkap kamu
   initials:   "AGSK",                  // 2 huruf inisial (untuk logo & avatar)
-  tagline:    "UI/UX Designer", // Kalimat singkat di bawah nama
+  tagline:    "Frontend & UI/UX Designer", // Kalimat singkat di bawah nama
   greeting:   "Halo, saya",          // Kata sapaan sebelum nama besar
   bio: [
     // Paragraf pertama tentang kamu (boleh diedit bebas)
     `Saya adalah seorang siswi SMK jurusan <strong>Rekayasa Perangkat Lunak</strong> yang memiliki minat dalam
     pengembangan web dan UI/UX Design. Saya senang mempelajari hal-hal baru, mengembangkan kemampuan pemrograman,
-    cara merancang antarmuka yang sederhana, menarik, dan muudah digunakan, serta membuat proyek yang dapat memberikan pengalaman belajar yang bermanfaat.`,
+    cara merancang antarmuka yang sederhana, menarik, dan mudah digunakan, serta membuat proyek yang dapat memberikan pengalaman belajar yang bermanfaat.`,
     // Paragraf kedua (teknologi yang kamu pakai)
-    `Dalam mengembangkan proyek, saya menggunakan <strong>HTML, CSS, JavaScript</strong> sebagai teknologi utama untuk membangun antarmuka website serta menggabungkan prinsip UI/UX Design. Saya juga memanfaatkan <strong>Github</strong> sebagai media penyimpanan proyek dan <strong>Google Drive<strong> untuk berbagi hasil pekerjaan.`,
+    `Dalam mengembangkan proyek, saya menggunakan <strong>HTML, CSS, JavaScript</strong> sebagai teknologi utama untuk membangun antarmuka website serta menggabungkan prinsip UI/UX Design. Saya juga memanfaatkan <strong>Github</strong> sebagai media penyimpanan proyek dan <strong>Google Drive</strong> untuk berbagi hasil pekerjaan.`,
   ],
 
   // Info detail di kartu about
   location:   "Malang, Jawa Timur",
   education:  "SMKS Brantas Karangkates — RPL",
-  focus:      "Web App & Mobile Development",
+  focus:      "Frontend & UI/UX Designer",
   languages:  "Indonesia, English",
 
   // Status badge di hero & about (ganti teks sesuai kondisimu)
@@ -45,7 +45,7 @@ const CONFIG_PROFILE = {
    Angka yang muncul di bagian bawah hero dengan animasi counter.
    ---------------------------------------------------------------- */
 const CONFIG_STATS = [
-  { number: 0,   label: "Proyek"    },
+  { number: 5,   label: "Proyek"    },
   { number: 0,    label: "Tahun pengalaman" },
   { number: 0,   label: "Klien"     },
 ];
@@ -58,7 +58,7 @@ const CONFIG_STATS = [
 const CONFIG_SOCIAL = {
   email:     "ananditaaa2010@gmail.com",
   instagram: "https://www.instagram.com/ananditagaluh?igsh=MWJrYzZyZmdkZHZldg==",   // kosongkan "" untuk sembunyikan
-  github:    "https://github.com/placeholder",
+  github:    "https://github.com/ananditaaa2010-a11y",
   linkedin:  "https://www.linkedin.com/in/anandita-galuh-sekar-kinanti-6063b2384?trk=contact-info",
   twitter:   "",   // kosongkan "" untuk sembunyikan
 };
@@ -77,11 +77,6 @@ const CONFIG_SKILLS = {
       tags:   ["HTML5", "CSS3", "JavaScript"],
     },
     {
-      icon:   "fa-solid fa-server",
-      title:  "Backend",
-      tags:   ["PHP", "MySQL"],
-    },
-    {
       icon:   "fa-solid fa-wrench",
       title:  "Tools & Others",
       tags:   ["GitHub", "Figma", "VS Code"],
@@ -89,10 +84,8 @@ const CONFIG_SKILLS = {
   ],
 
   bars: [
-    { name: "Frontend Development", pct: 75 },
-    { name: "Backend Development",  pct: 88 },
+    { name: "Frontend Development", pct: 88},
     { name: "UI / UX Design",       pct: 90 },
-    { name: "Mobile Development",   pct: 65 },
   ],
 };
 
@@ -132,6 +125,26 @@ const CONFIG_PROJECTS = [
     scale: "0.85",
     fit:"contain",
     link:     "https://drive.google.com/drive/folders/18nZtpMi1cFNg-g_ThQcgp08iBDadSXhM?usp=drive_link",
+  },
+  {
+    title:    "Design Landing-page Figma",
+    desc:     "Desain landing-page.",
+    tags:     ["Figma"],
+    category: "Design Web",
+    img:"../img/landing.jpg",
+    scale: "0.85",
+    fit:"contain",
+    link:     "https://www.figma.com/design/hwiHotD2EtEFiHTnz7G6wJ/E-Commerce-Design?node-id=0-1&t=tHgj5ebnapz78nLI-1",
+  },
+   {
+    title:    "Design web Batik Khas Yogyakarta Figma",
+    desc:     "Desain website toko atau E-commerce melalui Figma.",
+    tags:     ["Figma"],
+    category: "Design Web",
+    img:"../img/batikbaru.jpg",
+    scale: "0.85",
+    fit:"contain",
+    link:     "https://docs.google.com/document/d/1IXtKdZZeUXmvzTJlvwLknqLplPBPV6nUzIAECFkfMEw/edit?usp=sharing",
   },
 ];
 

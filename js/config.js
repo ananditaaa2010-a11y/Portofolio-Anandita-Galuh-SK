@@ -45,7 +45,7 @@ const CONFIG_PROFILE = {
    Angka yang muncul di bagian bawah hero dengan animasi counter.
    ---------------------------------------------------------------- */
 const CONFIG_STATS = [
-  { number: 5,   label: "Proyek"    },
+  { number: 6,   label: "Proyek"    },
   { number: 0,    label: "Tahun pengalaman" },
   { number: 0,   label: "Klien"     },
 ];
@@ -145,6 +145,17 @@ const CONFIG_PROJECTS = [
     scale: "0.85",
     fit:"contain",
     link:     "https://docs.google.com/document/d/1IXtKdZZeUXmvzTJlvwLknqLplPBPV6nUzIAECFkfMEw/edit?usp=sharing",
+  },
+     {
+    title:    "Website E-Commerce",
+    desc:     "Website sederhana yang berisi produk penjualan.",
+    tags:     ["HTML", "CSS", "JavaScript"],
+    category: "Web",
+    img : "../img/univ.jpg",
+    scale: "0.85",
+    fit:"contain",
+    link:     "https://www.figma.com/design/hwiHotD2EtEFiHTnz7G6wJ/E-Commerce-Design?node-id=0-1&t=AgTP4Hqli09JAkjF-1
+",   // ganti dengan URL proyekmu
   },
 ];
 

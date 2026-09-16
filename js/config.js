@@ -22,13 +22,13 @@ const CONFIG_PROFILE = {
     pengembangan web dan UI/UX Design. Saya senang mempelajari hal-hal baru, mengembangkan kemampuan pemrograman,
     cara merancang antarmuka yang sederhana, menarik, dan mudah digunakan, serta membuat proyek yang dapat memberikan pengalaman belajar yang bermanfaat.`,
     // Paragraf kedua (teknologi yang kamu pakai)
-    `Dalam mengembangkan proyek, saya menggunakan <strong>HTML, CSS, JavaScript</strong> sebagai teknologi utama untuk membangun antarmuka website serta menggabungkan prinsip UI/UX Design. Saya juga memanfaatkan <strong>Github</strong> sebagai media penyimpanan proyek dan <strong>Google Drive</strong> untuk berbagi hasil pekerjaan.`,
+    `Dalam mengembangkan proyek, saya menggunakan <strong>HTML, CSS, JavaScript, PHP</strong> sebagai teknologi utama untuk membangun antarmuka website serta menggabungkan prinsip UI/UX Design dan <strong> Python </strong> untuk membangun gim sederhana. Saya juga memanfaatkan <strong>Github</strong> sebagai media penyimpanan proyek dan <strong>Google Drive</strong> untuk berbagi hasil pekerjaan.`,
   ],
 
   // Info detail di kartu about
   location:   "Malang, Jawa Timur",
   education:  "SMKS Brantas Karangkates — RPL",
-  focus:      "Frontend & UI/UX Designer",
+  focus:      "Proggrammer",
   languages:  "Indonesia, English",
 
   // Status badge di hero & about (ganti teks sesuai kondisimu)
@@ -74,7 +74,7 @@ const CONFIG_SKILLS = {
     {
       icon:   "fa-solid fa-desktop",
       title:  "Frontend",
-      tags:   ["HTML5", "CSS3", "JavaScript"],
+      tags:   ["HTML5", "CSS3", "JavaScript", "PHP"],
     },
     {
       icon:   "fa-solid fa-wrench",

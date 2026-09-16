@@ -154,7 +154,7 @@ const CONFIG_PROJECTS = [
   {
     title: "Website E-Commerce",
     desc: "Website sederhana yang berisi produk penjualan.",
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["Figma"],
     category: "Web",
     img: "../img/qinanthi.png",
     scale: "0.85",

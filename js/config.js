@@ -97,65 +97,69 @@ const CONFIG_SKILLS = {
    ---------------------------------------------------------------- */
 const CONFIG_PROJECTS = [
   {
-    title:    "Sistem Informasi Universitas",
-    desc:     "Website sederhana yang berisi informasi Universitas Atma Jaya Yogyakarta.",
-    tags:     ["HTML", "CSS"],
+    title: "Sistem Informasi Universitas",
+    desc: "Website sederhana yang berisi informasi Universitas Atma Jaya Yogyakarta.",
+    tags: ["HTML", "CSS"],
     category: "Web",
-    img : "../img/univ.jpg",
+    img: "../img/univ.jpg",
     scale: "0.85",
-    fit:"contain",
-    link:     "https://drive.google.com/drive/folders/169R3fSfCAHkVx097qVUEvLi55mTc7g70?usp=drive_link",   // ganti dengan URL proyekmu
+    fit: "contain",
+    link: "https://drive.google.com/drive/folders/169R3fSfCAHkVx097qVUEvLi55mTc7g70?usp=drive_link",
   },
+
   {
-    title:    "Website Produk JCO Donuts",
-    desc:     "Website sederhana yang berisi tentang sebuah penjualan produk yaitu JCO Donuts.",
-    tags:     ["HTML", "CSS"],
+    title: "Website Produk JCO Donuts",
+    desc: "Website sederhana yang berisi tentang sebuah penjualan produk yaitu JCO Donuts.",
+    tags: ["HTML", "CSS"],
     category: "Web App",
     img: "../img/logo baru.png",
     scale: "0.85",
-    fit:"contain",
-    link:     "https://drive.google.com/drive/folders/169R3fSfCAHkVx097qVUEvLi55mTc7g70?usp=drive_link",
+    fit: "contain",
+    link: "https://drive.google.com/drive/folders/169R3fSfCAHkVx097qVUEvLi55mTc7g70?usp=drive_link",
   },
+
   {
-    title:    "Python",
-    desc:     "Bahasa python di projek ini digunakan untuk mengembangkan web(server), pengembangan perangkat lunak, matematika system scripting dan game.",
-    tags:     ["Python"],
-    category: "Bahasa Pemrograman Dasar",
-    img:"../img/python.jpg",
+    title: "Python",
+    desc: "Bahasa Python digunakan untuk pengembangan perangkat lunak dan game sederhana.",
+    tags: ["Python"],
+    category: "Game",
+    img: "../img/python.jpg",
     scale: "0.85",
-    fit:"contain",
-    link:     "https://drive.google.com/drive/folders/1OJ7EV6d5vqvGEp53Jp9b5gFa-r3DJKuk?usp=sharing",
+    fit: "contain",
+    link: "https://drive.google.com/drive/folders/1OJ7EV6d5vqvGEp53Jp9b5gFa-r3DJKuk?usp=sharing",
   },
+
   {
-    title:    "Design Landing-page Figma",
-    desc:     "Desain landing-page.",
-    tags:     ["Figma"],
+    title: "Design Landing Page Figma",
+    desc: "Desain landing page menggunakan Figma.",
+    tags: ["Figma"],
     category: "Design Web",
-    img:"../img/landing.jpg",
+    img: "../img/landing.jpg",
     scale: "0.85",
-    fit:"contain",
-    link:     "https://www.figma.com/design/hwiHotD2EtEFiHTnz7G6wJ/E-Commerce-Design?node-id=0-1&t=tHgj5ebnapz78nLI-1",
+    fit: "contain",
+    link: "https://www.figma.com/design/hwiHotD2EtEFiHTnz7G6wJ/E-Commerce-Design?node-id=0-1&t=tHgj5ebnapz78nLI-1",
   },
-   {
-    title:    "Design web Batik Khas Yogyakarta Figma",
-    desc:     "Desain website toko atau E-commerce melalui Figma.",
-    tags:     ["Figma"],
+
+  {
+    title: "Design Web Batik Khas Yogyakarta Figma",
+    desc: "Desain website toko atau E-Commerce melalui Figma.",
+    tags: ["Figma"],
     category: "Design Web",
-    img:"../img/batikbaru.jpg",
+    img: "../img/batikbaru.jpg",
     scale: "0.85",
-    fit:"contain",
-    link:     "https://docs.google.com/document/d/1IXtKdZZeUXmvzTJlvwLknqLplPBPV6nUzIAECFkfMEw/edit?usp=sharing",
+    fit: "contain",
+    link: "https://docs.google.com/document/d/1IXtKdZZeUXmvzTJlvwLknqLplPBPV6nUzIAECFkfMEw/edit?usp=sharing",
   },
-     {
-    title:    "Website E-Commerce",
-    desc:     "Website sederhana yang berisi produk penjualan.",
-    tags:     ["HTML", "CSS", "JavaScript"],
+
+  {
+    title: "Website E-Commerce",
+    desc: "Website sederhana yang berisi produk penjualan.",
+    tags: ["HTML", "CSS", "JavaScript"],
     category: "Web",
-    img : "../img/qinanthi.png",
+    img: "../img/qinanthi.png",
     scale: "0.85",
-    fit:"contain",
-    link:     "https://www.figma.com/design/hwiHotD2EtEFiHTnz7G6wJ/E-Commerce-Design?node-id=0-1&t=AgTP4Hqli09JAkjF-1
-",   // ganti dengan URL proyekmu
+    fit: "contain",
+    link: "https://www.figma.com/design/hwiHotD2EtEFiHTnz7G6wJ/E-Commerce-Design?node-id=0-1&t=AgTP4Hqli09JAkjF-1",
   },
 ];
 
